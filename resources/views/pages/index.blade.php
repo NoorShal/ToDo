@@ -2,6 +2,9 @@
 @section('content')
 
 <div class="container  justify-content-center text-center">
+    <div class="row m-5">
+        <h2>User can move and change task status by dragging the task items and drop them in the appropriate list</h2>
+    </div>
     <div class="row justify-content-center m-4 text-center">
     <div class="col-4">
         <div class="row">
@@ -56,7 +59,7 @@
     </div>
 </div>
 
-<a data-toggle="modal" data-target="#myModal" style="position:absolute;bottom:5px;right:5px;margin:0;padding:5px 3px;" href="#"><i class="fa fa-plus-circle fa-4x"></i></a>
+<a data-toggle="modal" data-target="#myModal" style="margin:20px;position:sticky;bottom:20px;right:5px;padding:5px 3px;" href="#"><i class="fa fa-plus-circle fa-4x"></i></a>
 
 <!-- The Modal -->
 <div class="modal" id="myModal">
